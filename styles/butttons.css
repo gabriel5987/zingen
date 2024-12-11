@@ -1,6 +1,6 @@
 .btn {
     --btn-bg-color: var(--text-color-primary);
-    --btn-color: var(--bg-vcolor);
+    --btn-color: var(--bg-color);
     border: 0;
 
     display: flex;
@@ -10,7 +10,7 @@
 
     border-radius: .5rem;
 
-    font: var(--fw-md) var(--fs-base)/1.5rem var(-ff-sans);
+    font: var(--fw-md) var(--fs-base)/1.5rem var(--ff-sans);
 
     cursor: pointer;
 
@@ -56,7 +56,7 @@
         content: "";
         position: absolute;
         border-radius: inherit;
-        inset: 1.5px;
+        inset: 1px;
         background-color: var(--bg-color);
 
     }
